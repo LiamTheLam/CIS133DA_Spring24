@@ -1,3 +1,29 @@
 h1 {
-    
+    font-size: 3.6rem;
+    color: "(75, 133, 94)";
+    text-align:center
+}   
+
+p {
+    font-size: serif;
+    font-size: 10px;
+
+}
+
+h2 {
+    color: "rgb (75, 133, 94)";
+    font-size: 2.4rem;
+}
+
+h3 {
+    color: rgb "(75, 133, 94)";
+    font-size: 2rem;
+}
+
+header {
+    margin: 10px;
+    padding: 10px;
+    /* Set the height of the header to 100% of the viewport height */
+    height: 200vh;
+    background-color: "(75, 133, 94)";
 }
