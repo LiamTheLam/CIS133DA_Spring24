@@ -22,8 +22,7 @@ h3 {
 
 hr {
     margin: 0;
-    padding: 0;
+    padding: 10vh;
     /* Set the height of the header to 100% of the viewport height */
-    height: 200vh;
     background-color: "(75, 133, 94)";
 }
