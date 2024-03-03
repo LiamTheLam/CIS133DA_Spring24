@@ -1,0 +1,12 @@
+body {
+    font-size: 1rem;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr{
+    
+}
