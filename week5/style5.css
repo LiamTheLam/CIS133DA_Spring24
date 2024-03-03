@@ -1,5 +1,6 @@
 body {
-    
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(yellow, red);
 }
 
 table, th, td {
