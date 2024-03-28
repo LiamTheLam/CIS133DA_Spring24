@@ -46,9 +46,39 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
 }
+img {
+    width: 10rem;
+}
 
-@media only screen and (max-width: 600px) {
+div {
+    float: left;
+}
+
+.refloat {
+    float: clear;
+}
+
+@media only screen and (max-width: 768px) {
     body {
       background-color: lightblue;
     }
+
+    img {
+        width: 15rem;
+
+    }
+    
   }
+
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: green;
+    }
+    img {
+        width: 20rem;
+        
+    }
+
+    
+  }
+
