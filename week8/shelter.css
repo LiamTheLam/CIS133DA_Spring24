@@ -7,6 +7,10 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 15vw auto;
+    grid-template-rows: 15vw auto 10vh;
+    grid-template-areas: "hdr hdr" "asd mn" "ftr ftr";
 }
 
 header, aside, main, footer {
@@ -17,10 +21,12 @@ header, aside, main, footer {
 header {
     color: white;
     background-color: blue;
+    grid-area: hdr;
 }
 
 aside {
     background-color: yellow;
+    grid-area: asd;
 }
 
 aside > img {
@@ -28,14 +34,23 @@ aside > img {
 }
 
 main {
+    grid-area: mn;
 }
+
 
 footer {
     color: white;
     background-color: blue;
+    grid-area: ftr;
 }
 
-header, footer {
+header, footer, #petWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h1 {
@@ -55,9 +70,4 @@ p {
     background-color: lightblue;
     height: 200px;
     width: 200px;
-}
-
-.amigo_div > img {
-    width: 180px;
-    height: 180px;
 }
