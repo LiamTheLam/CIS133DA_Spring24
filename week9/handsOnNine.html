@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="reset"], imput[type="submit"] {
+            width: 80px;
+
+        }
+        
+        form {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form class="cen">
+        <table center>
+            <tr>
+                <td colspan="2">
+                        <input 
+                            type="text"
+                            name="username"
+                            id="username"
+                            maxlength="4" \\how many characters the table can fit
+                            required
+                            tabindex="1"
+                            placeholder="Type your username"
+                        />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    
+                    <input 
+                        type="text"
+                        name="password"
+                        id="password"
+                        maxlength="32" \\how many characters the table can fit
+                        required
+                        tabindex="2" 
+                        placeholder="Type your password"
+                        />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset"
+                    tableindex="4"
+                    />
+                </td>
+                <td>                    
+                    <input type="submit"
+                    tableindex="3"
+                    />
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
