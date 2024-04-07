@@ -8,6 +8,13 @@
         th {
             font-size: 40px;
         }
+        img {
+            height: 200px;
+            width: 200px;
+        }        
+        #textboxMid {
+            width: 80px;
+        }
     </style>
 </head>
 <body>
@@ -63,11 +70,13 @@
                     </td>
                 </tr>
 
-                <tr></tr>
-
-                <tr></tr>
-
-                <tr></tr>
+                <tr>
+                    <td>
+                        <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                     
+                    </td>
+                </tr>
 
             </tbody>
         </table>
@@ -77,7 +86,7 @@
                     <input 
                     type="text"
                     name="first"
-                    id="first"
+                    id="textboxBig"
                     maxlength="20" \\how many characters the table can fit
                     required
                     tabindex="6" 
@@ -158,6 +167,19 @@
                 </td>
             </tr>
             <tr>
+                <td>
+                    <input 
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    maxlength="12"
+                    required
+                    tabindex="13" 
+                    placeholder="Phone Number"
+                    />
+                </td>
+            </tr>
+            <tr>
                 <td colspan="3"></td>
             </tr>
             <tr>
@@ -167,7 +189,7 @@
                     type="date"
                     name="dDate"
                     id="dDate"
-                    tabindex="13"
+                    tabindex="14"
                     placeholder="Special Instructions"
 
                 />
@@ -181,7 +203,7 @@
                         id="spD"
                         maxlength="500"
                         required
-                        tabindex="18"
+                        tabindex="15"
                         placeholder="Special Instructions"
 
                     />
@@ -192,7 +214,7 @@
                     <input 
                     type="submit" 
                     value="Submit"
-                    tabindex="19"
+                    tabindex="16"
                     />
                 </td>
             </tr>
