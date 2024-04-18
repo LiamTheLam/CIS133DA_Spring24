@@ -41,7 +41,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:right;"">
+                <td colspan="2" style="text-align:right;">
                     <input type="button" value="Cancel" onclick="cancelTicket()" />
                     <input type="button" value="Print Ticket" onclick="printTicket()" />
                 </td>
@@ -52,7 +52,7 @@
     <ticket>
         <ownerInfo>
             <p>Sr. Amigo's Name</p>
-            <p><span class="boldText" id="ownerName">???</span></p>
+            <p><span class="boldText" id="ownerName">ownerName</span></p>
             <p>Date of Visit</p>
             <p><span class="boldText" id="visitDate">??/??/????</span></p>
         </ownerInfo>
@@ -66,6 +66,12 @@
 </body>
 <script>
     let strName = prompt('What is your name');
-    let strAppt = prompt('When would you like your appointment?')
+    let strAppt = prompt('When would you like your appointment?');
+    
+    document.title =strName + '\'s Ticket to Animal Amigos';
+
+    document.getElementById('ownerName').innerText = strName; 
+     
+    document.getElementById('visitDate').innerText = strAppt;
 </script>
 </html>
