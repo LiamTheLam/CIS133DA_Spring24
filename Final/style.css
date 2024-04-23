@@ -1,5 +1,5 @@
 body {
-    background-color: plum;
+    background-color: teal;
 
 
 }
@@ -12,4 +12,21 @@ body {
 header {
     font-size: 80px;
     text-align: center;
+    font-family: Nabla;
+    background-color: #32588F;
+}
+
+h1 {
+    font-family: Nabla;
+}
+
+a :link {
+    color: #EC6B2A;
+}
+
+
+
+p {
+    color: #FFC300;
+    font-family: Merienda;
 }
