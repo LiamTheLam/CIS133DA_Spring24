@@ -40,7 +40,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:right;"">
+                <td colspan="2" style="text-align:right;">
                     <input type="button" value="Cancel" onclick="cancelTicket()" />
                     <input type="button" value="Print Ticket" onclick="printTicket()" />
                 </td>
@@ -63,17 +63,25 @@
         </amigoInfo>
     </ticket>
 </body>
-
+<select name="amigo_size" id="amigo_size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select>
 <script lang="javascript">
 
     var name = window.prompt('Enter your first name');
     var date = window.prompt('Enter the date you want to visit');
     document.title = `${name}'s Ticket to Animal Amigos`;
+
     document.getElementById('ownerName').innerText = name;
     document.getElementById('visitDate').innerText = date;
 
     function cancelTicket() {
         window.close();
+        var amigoName = amigo_name;
+        var amingoSize = amingo_size;
+        
     }
 
 </script>
