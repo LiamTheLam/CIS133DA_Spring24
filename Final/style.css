@@ -20,13 +20,29 @@ h1 {
     font-family: Nabla;
 }
 
-a :link {
+a {
     color: #EC6B2A;
 }
 
-
+h2 {
+    font-family: Nabla;
+}
 
 p {
     color: #FFC300;
     font-family: Merienda;
+    font-size: 20px;
+}
+
+li, ul {
+    color: #FFC300;
+    font-family: Merienda;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.startOverRover {
+    clear: both;
 }
