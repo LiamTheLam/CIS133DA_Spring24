@@ -26,6 +26,7 @@ a {
 
 h2 {
     font-family: Nabla;
+    font-size: 30px;
 }
 
 p {
@@ -43,6 +44,9 @@ li, ul {
     float: left;
 }
 
+.floatRight {
+    float: right;
+}
 .startOverRover {
     clear: both;
 }
