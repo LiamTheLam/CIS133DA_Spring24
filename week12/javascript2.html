@@ -79,10 +79,31 @@
 
     function cancelTicket() {
         window.close();
-        var amigoName = amigo_name;
-        var amingoSize = amingo_size;
         
     }
+    
+    function printTicket() {
+        var amigoName = document.getElementById('amigo_name').value;
+
+        var e = document.getElementById('amigo_type');
+        var amigo_type = e.options[e.selectedIndex].text;
+
+        var arySize = document.getElementByName('amigo_size');
+        for (i=0, 1 < arySize.legnth; 1++ ;) {
+            if(arySize[i].checked) {
+                amigoSize = arySize[i].value;
+            }
+        }
+
+    }
+    
+    <select id='amigo_type'>
+        <option value='1'>Dog</option>
+        <option value='2'>Cat</option>
+        <option value='3'>Bird</option>
+    </select>
+
+    
 
 </script>
 
