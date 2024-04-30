@@ -47,6 +47,12 @@ li, ul {
 .floatRight {
     float: right;
 }
+
 .startOverRover {
     clear: both;
+}
+
+h3 {
+    font-family: Merienda;
+    color: #FFC300;
 }
