@@ -56,3 +56,7 @@ h3 {
     font-family: Merienda;
     color: #FFC300;
 }
+
+table, th, td {
+    border: 3px solid black;
+}
